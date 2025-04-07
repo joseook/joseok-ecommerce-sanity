@@ -1,0 +1,46 @@
+{
+  "name": "ecommerce",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@sanity/client": "^6.28.3",
+    "@sanity/image-url": "^1.1.0",
+    "@sanity/vision": "3",
+    "@stripe/stripe-js": "^1.25.0",
+    "canvas-confetti": "^1.5.1",
+    "framer-motion": "6.5.1",
+    "next": "14.2.26",
+    "next-sanity-image": "^6.1.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-hot-toast": "^2.2.0",
+    "react-icons": "^4.3.1",
+    "sanity": "3",
+    "stripe": "^8.209.0",
+    "styled-components": "6"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.16.7",
+    "autoprefixer": "^10.4.14",
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.4",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.0"
+  },
+  "packageManager": "pnpm@10.4.1+sha512.c753b6c3ad7afa13af388fa6d808035a008e30ea9993f58c6663e2bc5ff21679aa834db094987129aa4d488b86df57f7b634981b2f827cdcacc698cc0cfb88af",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "core-js-pure",
+      "esbuild",
+      "scrollmirror",
+      "yarn"
+    ]
+  }
+}
