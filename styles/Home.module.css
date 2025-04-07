@@ -1,0 +1,148 @@
+.container {
+  padding: 0 2.5rem;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f7f8fa 0%, #e9ecef 100%);
+}
+
+.footer {
+  display: flex;
+  padding: 2.5rem 0;
+  border-top: 1px solid #d1d5db;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #d1d5db;
+  transition: background-color 0.3s ease;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  color: #facc15;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #ffffff;
+}
+
+.title a {
+  color: #2563eb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  color: #1e40af;
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.2;
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #1f2937;
+  text-transform: uppercase;
+  letter-spacing: -0.025em;
+}
+
+.description {
+  margin: 3rem 0;
+  line-height: 1.6;
+  font-size: 1.25rem;
+  color: #4b5563;
+  max-width: 600px;
+}
+
+.code {
+  background: #e5e7eb;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-family: 'Fira Code', monospace;
+  color: #1f2937;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  padding: 1rem;
+}
+
+.card {
+  margin: 0;
+  padding: 2rem;
+  text-align: left;
+  color: #1f2937;
+  text-decoration: none;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-color: #2563eb;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #6b7280;
+}
+
+.logo {
+  height: 1.25em;
+  margin-left: 0.75rem;
+  filter: grayscale(20%);
+  transition: filter 0.3s ease;
+}
+
+.logo:hover {
+  filter: grayscale(0%);
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+}
