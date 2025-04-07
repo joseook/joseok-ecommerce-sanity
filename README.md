@@ -27,7 +27,7 @@ A fully responsive modern e-commerce application with complete payment functiona
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/ecommerce_sanity_stripe.git
+   git clone https://github.com/joseook/joseok-ecommerce-sanity.git
    cd ecommerce_sanity_stripe
    ```
 
