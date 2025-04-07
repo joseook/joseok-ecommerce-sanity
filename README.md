@@ -79,13 +79,6 @@ This project showcases a powerful integration between Sanity CMS and Stripe:
 - **Seamless Workflow**: Product data from Sanity is used to create and manage products in Stripe
 - **Real-time Updates**: Changes made in Sanity are immediately reflected on the frontend
 
-## Deployment
-
-The application can be easily deployed to Vercel:
-
-```bash
-vercel
-```
 
 ## Developer
 
